@@ -13,7 +13,7 @@ public class colortest {
 	static WebDriver driver;
 	public static void main(String[] args) {
 		WebDriverManager.chromedriver().setup();
-		
+		//color test
 		driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
